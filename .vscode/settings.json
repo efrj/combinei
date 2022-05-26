@@ -1,0 +1,27 @@
+{
+  "eslint.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "files.exclude": {
+    "**/.next": true,
+    "**/dist": true,
+    "**/tmp": true,
+    "**/node_modules": true
+  },
+  "search.exclude": {
+    "**/.next": true,
+    "**/dist": true,
+    "**/tmp": true,
+    "**/node_modules": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.format.enable": true,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false
+  }
+}
